@@ -1,0 +1,64 @@
+.uniform-grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 2px;
+}
+
+.grid-item{
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    border: 2px purple solid;
+}
+
+.article{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 2px;
+    grid-template-rows: 40px 40px 160px;
+}
+.article>div{
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    border: 2px purple solid;
+}
+.header{
+    grid-column: 1/4;
+    
+}
+.summary{
+    
+
+    grid-area: 3/2/5/4;
+    font-size: 50px;
+    
+
+}
+.image{
+    grid-area:2/1/5/2;
+}
+.article-info{
+   
+    grid-area: 2/2/3/4;
+}
+
+.tile{
+    width: 160px;
+    height: 160px;
+    background-color: orange;
+    border: 2px purple solid;
+    font-size: 150px;
+    text-align: center;
+    
+}
+.minesweeper{
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    display: inline-grid;
+    
+    background-color: black;
+    padding: 2px;
+   
+}
